@@ -28,12 +28,20 @@
 
 .header__title {
   padding-left: 64px;
+  width: 730px;
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: bold;
 }
 
 .header__subtitle {
   position: absolute;
   left: 64px;
   bottom: 30px;
+  width: 388px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
 }
 
 .header__main-illustration {
