@@ -221,11 +221,13 @@
 
 .feynman {
   position: relative;
-  min-height: 790px;
+  padding-top: 100px;
+  min-height: 887px;
   background-color: var(--gray-light);
   background-image: url("../images/feynman.png");
   background-repeat: no-repeat;
-  background-position: left bottom;
+  background-position: 0 250px;
+  background-size: 867px 637px;
 }
 
 .feynman__title,
@@ -253,12 +255,11 @@
   position: absolute;
   top: 50%;
   right: 48px;
-  color: var(--primary);
+  color: var(--black);
   font-size: 36px;
   line-height: 51px;
   font-weight: normal;
   text-decoration: none;
-  transform: translateY(-50%);
 }
 
 .kaufman {
